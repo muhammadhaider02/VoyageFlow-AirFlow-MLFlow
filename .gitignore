@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+env/
+
+# Airflow runtime
+logs/
+plugins/
+mlruns/
+
+# Data (don't commit large CSVs — link Kaggle instead)
+# data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.env.local
