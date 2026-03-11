@@ -1,4 +1,4 @@
-# TitanFlow-AirFlow-MLFlow: End-to-End ML Pipeline
+# TitanFlow-DAG: End-to-End ML Pipeline
 
 **Project:** Titanic Survival Prediction Pipeline  
 **Stack:** Apache Airflow 2.8.1 · MLflow 2.11.1 · scikit-learn 1.4 · Docker Compose  

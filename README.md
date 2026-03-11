@@ -1,4 +1,4 @@
-# TitanFlow-AirFlow-MLFlow 🚢
+# TitanFlow-DAG 🚢
 
 An end-to-end Machine Learning pipeline for **Titanic survival prediction**, orchestrated with **Apache Airflow** and tracked with **MLflow**, running fully locally via **Docker**.
 
@@ -7,7 +7,7 @@ An end-to-end Machine Learning pipeline for **Titanic survival prediction**, orc
 ## 📁 Project Structure
 
 ```
-TitanFlow-AirFlow-MLFlow/
+TitanFlow-DAG/
 ├── dags/
 │   └── mlops_airflow_mlflow_pipeline.py   ← Pipeline DAG
 ├── data/
@@ -30,7 +30,7 @@ Download `titanic.csv` from Kaggle:
 
 Place the file at:
 ```
-TitanFlow-AirFlow-MLFlow/data/titanic.csv
+TitanFlow-DAG/data/titanic.csv
 ```
 
 ### Step 2 — Check the `.env` File
